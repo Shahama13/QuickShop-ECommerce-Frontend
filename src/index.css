@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Ysabeau+SC:wght@600&display=swap");
+
+/* NAVBAR CSS */
+.navbar {
+  font-size: 17px;
+  line-height: 36px;
+  text-transform: capitalize;
+  box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0.5px solid gray !important;
+  font-family: "Playfair Display", serif;
+  color: darkblue;
+}
+.nav-link {
+  font-weight: bold;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-color: #0588cd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+}
+.navbar-brand {
+  letter-spacing: 3px;
+}
+
+/* Footer */
+.footer {
+  color: white;
+  /* height: 70px; */
+  padding: 9px;
+  background-image: linear-gradient(to right, #04255a, #0588cd);
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+.footer a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+/* pnf */
+.pnf {
+  display: flex;
+  min-height: 60vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-title {
+  font-size: 90px;
+  font-weight: 500;
+}
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* CONTACT US */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-link{
+  text-decoration: none;
+}
+
